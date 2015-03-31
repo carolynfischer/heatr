@@ -1,0 +1,4 @@
+Twilio SMS controlled heat pump
+
+Initiate database with e.g.
+sqlite3 /tmp/heatr.db < schema.sql

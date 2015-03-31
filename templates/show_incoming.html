@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    {{ messagebody|safe }}
+  {% endif %}
+{% endblock %}
